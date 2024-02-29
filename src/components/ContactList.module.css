@@ -1,0 +1,32 @@
+.main{
+    background: linear-gradient(rgb(220, 241, 245), blue);
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.item{
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(93, 97, 99);
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email{
+    font-size: 15px;
+    color: rgb(60, 1, 94);
+    font-weight: bold;
+}
+
+.item i{
+    color: red;
+    font-size: larger;
+}

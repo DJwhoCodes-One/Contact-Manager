@@ -1,0 +1,60 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 2px solid grey;
+}
+
+.left {
+  display: flex;
+  gap: 10px;
+}
+
+.name {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+.email {
+  font-size: 15px;
+  color: rgb(60, 1, 94);
+  font-weight: bold;
+}
+
+.right i {
+  color: red;
+  font-size: x-large;
+}
+
+.right {
+  gap: 10px;
+}
+
+/* editForm.css */
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.editForm input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.editForm button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.editForm button:hover {
+  background-color: #0056b3;
+}
