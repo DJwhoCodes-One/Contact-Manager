@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './ContactCard.module.css';
-import user from '../assets/user-avatar.png';
+import user from '../../public/user.png';
 
 export const ContactCard = (props) => {
   const { id, name, email } = props.contact;
@@ -45,7 +45,7 @@ export const ContactCard = (props) => {
       <div className={styles.right}>
         <i
           onClick={() => setEditing(true)}
-          className="edit alternate outline icon blue"
+          className="edit alternate outline icon"
         ></i>
         <i className="trash alternate outline icon"
           onClick={() => { props.clickHandler(id) }}

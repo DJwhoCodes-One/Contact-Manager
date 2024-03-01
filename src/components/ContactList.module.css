@@ -1,18 +1,17 @@
 .main{
-    background: linear-gradient(rgb(220, 241, 245), blue);
-    height: 100vh;
+    background: rgb(120, 128, 128);
+    height: 50vh;
     padding-top: 20px;
 }
 
 .item{
-    /* border: 2px solid red; */
+    margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid rgb(93, 97, 99);
 }
 
 .name{

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(21, 35, 43);
 }
 
 .left {
@@ -13,19 +13,23 @@
 
 .name {
   font-size: 20px;
-  color: black;
+  color: rgb(0, 26, 51);
   font-weight: bolder;
 }
 
 .email {
   font-size: 15px;
-  color: rgb(60, 1, 94);
+  color: rgb(0, 7, 88);
   font-weight: bold;
 }
 
 .right i {
-  color: red;
+  color: rgb(220, 0, 0);
   font-size: x-large;
+}
+
+.right i:first-child{
+  color: rgb(0, 80, 199);
 }
 
 .right {
